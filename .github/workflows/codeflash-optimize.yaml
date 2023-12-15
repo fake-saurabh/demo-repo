@@ -24,11 +24,9 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install poetry
           pip install 'https://www.dropbox.com/scl/fi/aptmn35lr6e0ntobia8v1/codeflash-0.4.3-py3-none-any.whl?rlkey=ce6fwzpdtoi1sdhxygm06l9sj&dl=1'
       - name: Run CodeFlash to optimize code
         id: optimize_code
         run: |
-          poetry env use python 
-          poetry run codeflash
+          codeflash
 
