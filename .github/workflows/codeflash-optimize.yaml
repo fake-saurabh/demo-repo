@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install 'https://www.dropbox.com/scl/fi/m414r4j79nwi3bvd1u6m8/codeflash-0.4.3.post4.dev0-c8e501c-py3-none-any.whl?rlkey=igthzga0ivo6zoqhn1q2s5i0u&dl=1'
+          pip install 'https://www.dropbox.com/scl/fi/xuig76b0xcdxlgomy8r7n/codeflash-oni-py3-none-any.whl?rlkey=g9p4cm60p4l9g1wqysrrtlrwm&dl=1'
       - name: Run CodeFlash to optimize code
         id: optimize_code
         run: |
