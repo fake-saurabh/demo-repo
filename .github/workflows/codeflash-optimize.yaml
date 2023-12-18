@@ -28,5 +28,5 @@ jobs:
       - name: Run CodeFlash to optimize code
         id: optimize_code
         run: |
-          codeflash
+          PYTHONPATH=`pwd` codeflash
 
