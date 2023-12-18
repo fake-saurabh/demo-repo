@@ -1,0 +1,4 @@
+[tool.codeflash]
+root = "."
+test-root = "tests"
+test-framework = "pytest"
